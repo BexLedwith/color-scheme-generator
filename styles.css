@@ -36,9 +36,13 @@ header {
   margin-left: 15px;
 }
 
-#dropdown {
+.schemes {
   width: 312px;
+  height: 42px;
   border: 1px solid #d1d5d8;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
 }
 
 #getBtn {
