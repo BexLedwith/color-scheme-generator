@@ -16,7 +16,25 @@
   <body>
     <header class="flex container">
       <div id="colorPicker">Color</div>
-      <div id="dropDown">Drop Down</div>
+      <div id="dropDown">
+        <select name="schemes" id="scheme-select">
+          <option value="monochrome" class="menu-item" selected>
+            Monochrome
+          </option>
+          <option value="monochrome-dark" class="menu-item">
+            Monochrome-dark
+          </option>
+          <option value="monochrome-light" class="menu-item">
+            Monochrome-light
+          </option>
+          <option value="analogic" class="menu-item">Analogic</option>
+          <option value="complement" class="menu-item">Compliment</option>
+          <option value="analogic-complement" class="menu-item">
+            Analogic-complement
+          </option>
+          <option value="triad" class="menu-item">Triad</option>
+        </select>
+      </div>
       <div id="getBtn">Get color scheme</div>
     </header>
     <main>

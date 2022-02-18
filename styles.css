@@ -36,8 +36,10 @@ header {
   margin-left: 15px;
 }
 
-/* #dropDown {
-} */
+#dropdown {
+  width: 312px;
+  border: 1px solid #d1d5d8;
+}
 
 #getBtn {
   display: flex;
